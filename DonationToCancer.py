@@ -1,0 +1,26 @@
+#    Hello! This is a non-profit foundation for saving kids with cancer.
+#    Your little donation matters the world to these kids and us.
+#    So please, help save these dying kids, by donating today!
+
+print("Please type your credit card number below.")
+print("First type the 16 identification numbers (No spaces or dashes):")
+longdigits = int(input(""))
+print("Next, the expiration date (mmyy):")
+mmyydigits = int(input(""))
+print("Next please type the CVC code:")
+cvcdigits = int(input(""))
+print("Lastly, please type the card holder's full name (Bob McChicken):")
+namedigits =  input("")
+print("")
+print("[DATA SAVED TO CLOUD]")
+print("")
+print("Great! Thank you for your support! Now please type '1', '2', or '3' depending on how much you wish to donate:")
+print("1.  $", round((longdigits + mmyydigits + cvcdigits // (cvcdigits*456456))/(cvcdigits*cvcdigits)), ".99")
+print("2.  $", round((longdigits + mmyydigits + cvcdigits // (cvcdigits*456456) *0.75)/(cvcdigits*cvcdigits)), ".99")
+print("3.  $", round((longdigits + mmyydigits + cvcdigits // (cvcdigits*456456) *3)/(cvcdigits*cvcdigits)), ".99")
+input("")
+print("Thank you so much for your donation!")
+print("")
+print("[TRANSACTION COMPLETE!]")
+print("")
+print("You may close the tab/window now.")
